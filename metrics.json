@@ -1,0 +1,45 @@
+{
+  "best_model": "Logistic Regression",
+  "best_params": {
+    "model__C": 0.09006280202112786
+  },
+  "threshold": 0.506,
+  "accuracy": 0.7395,
+  "precision": 0.4958,
+  "recall": 0.8177,
+  "f1": 0.6173,
+  "roc_auc": 0.8436,
+  "cv_table": [
+    {
+      "model": "Logistic Regression",
+      "cv_auc_mean": 0.8219,
+      "cv_auc_std": 0.0085
+    },
+    {
+      "model": "Random Forest",
+      "cv_auc_mean": 0.8094,
+      "cv_auc_std": 0.0089
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_auc_mean": 0.8129,
+      "cv_auc_std": 0.0073
+    }
+  ],
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate": 0.257,
+  "baseline_logreg_auc": 0.8441,
+  "top_features": {
+    "Contract": 0.1285,
+    "tenure": 0.0496,
+    "avg_monthly_spend": 0.0173,
+    "InternetService": 0.0126,
+    "PaymentMethod": 0.0089,
+    "MonthlyCharges": 0.0067,
+    "OnlineSecurity": 0.0052,
+    "PaperlessBilling": 0.0026,
+    "Dependents": 0.0021,
+    "SeniorCitizen": 0.0019
+  }
+}
